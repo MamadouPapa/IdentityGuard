@@ -71,7 +71,7 @@ Describe 'HTML report' {
         $Html | Should -Match 'MODE DÉMO'
         $Html | Should -Match 'id="f-ad-007"'
         $Html | Should -Match 'id="f-ad-002"'
-        $Html | Should -Match 'Contrôle non exécuté : signInActivity indisponible \(licence Entra ID P1'
+        [System.Net.WebUtility]::HtmlDecode($Html) | Should -Match 'Contrôle non exécuté : licence P1 requise'
     }
 
     It 'opens critical findings by default and lists failing findings first' {
