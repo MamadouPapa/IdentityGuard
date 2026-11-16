@@ -1,0 +1,22 @@
+# Real audit output: contains sensitive directory data, never commit it.
+IdentityGuard-Report-*.html
+*.audit.html
+rapport*.html
+rapport*.json
+reports/
+output/
+
+# The demo report (synthetic data) is the only report meant to be versioned.
+!docs/demo-report.html
+
+# Pester / coverage
+testResults.xml
+TestResults/
+coverage.xml
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

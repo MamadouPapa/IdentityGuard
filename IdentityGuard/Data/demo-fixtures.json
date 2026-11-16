@@ -1,0 +1,118 @@
+{
+  "_comment": "Synthetic, entirely fictitious data for IdentityGuard -DemoMode. Fields '<Name>DaysAgo' become '<Name>' dates relative to now (negative = future).",
+  "ADDomain": {
+    "DNSRoot": "corp.contoso.example",
+    "NetBIOSName": "CONTOSO",
+    "DomainSID": "S-1-5-21-1000000001-2000000002-3000000003"
+  },
+  "ADUsers": [
+    { "SamAccountName": "krbtgt", "Enabled": false, "AdminCount": 1, "ServicePrincipalName": ["kadmin/changepw"], "PasswordLastSetDaysAgo": 1412, "whenCreatedDaysAgo": 2400, "lastLogonTimestampDaysAgo": null },
+    { "SamAccountName": "Administrator", "Enabled": true, "AdminCount": 1, "PasswordNeverExpires": true, "PasswordLastSetDaysAgo": 815, "whenCreatedDaysAgo": 2400, "lastLogonTimestampDaysAgo": 3 },
+    { "SamAccountName": "Guest", "Enabled": false, "PasswordNotRequired": true, "whenCreatedDaysAgo": 2400, "lastLogonTimestampDaysAgo": null },
+    { "SamAccountName": "adm.user01", "Enabled": true, "AdminCount": 1, "PasswordLastSetDaysAgo": 40, "whenCreatedDaysAgo": 900, "lastLogonTimestampDaysAgo": 1 },
+    { "SamAccountName": "adm.user02", "Enabled": true, "AdminCount": 1, "PasswordNeverExpires": true, "PasswordLastSetDaysAgo": 610, "whenCreatedDaysAgo": 1200, "lastLogonTimestampDaysAgo": 134 },
+    { "SamAccountName": "adm.user03", "Enabled": true, "AdminCount": 1, "PasswordLastSetDaysAgo": 70, "whenCreatedDaysAgo": 500, "lastLogonTimestampDaysAgo": 6 },
+    { "SamAccountName": "adm.user04", "Enabled": true, "AdminCount": 1, "PasswordLastSetDaysAgo": 20, "whenCreatedDaysAgo": 300, "lastLogonTimestampDaysAgo": 2 },
+    { "SamAccountName": "old.admin01", "Enabled": false, "AdminCount": 1, "PasswordLastSetDaysAgo": 1000, "whenCreatedDaysAgo": 2000, "lastLogonTimestampDaysAgo": 700 },
+    { "SamAccountName": "svc_sql01", "Enabled": true, "PasswordNeverExpires": true, "ServicePrincipalName": ["MSSQLSvc/sql01.corp.contoso.example:1433", "MSSQLSvc/sql01.corp.contoso.example"], "PasswordLastSetDaysAgo": 1300, "whenCreatedDaysAgo": 1500, "lastLogonTimestampDaysAgo": 1 },
+    { "SamAccountName": "svc_backup01", "Enabled": true, "AdminCount": 1, "PasswordNeverExpires": true, "ServicePrincipalName": ["BackupSvc/bkp01.corp.contoso.example"], "PasswordLastSetDaysAgo": 980, "whenCreatedDaysAgo": 1100, "lastLogonTimestampDaysAgo": 1 },
+    { "SamAccountName": "svc_legacyapp01", "Enabled": true, "PasswordNeverExpires": true, "DoesNotRequirePreAuth": true, "PasswordLastSetDaysAgo": 1700, "whenCreatedDaysAgo": 1800, "lastLogonTimestampDaysAgo": 12 },
+    { "SamAccountName": "svc_monitor01", "Enabled": true, "PasswordLastSetDaysAgo": 50, "whenCreatedDaysAgo": 400, "lastLogonTimestampDaysAgo": 1 },
+    { "SamAccountName": "user01", "Enabled": true, "PasswordLastSetDaysAgo": 30, "whenCreatedDaysAgo": 700, "lastLogonTimestampDaysAgo": 1 },
+    { "SamAccountName": "user02", "Enabled": true, "PasswordLastSetDaysAgo": 60, "whenCreatedDaysAgo": 650, "lastLogonTimestampDaysAgo": 4 },
+    { "SamAccountName": "user03", "Enabled": true, "PasswordLastSetDaysAgo": 260, "whenCreatedDaysAgo": 900, "lastLogonTimestampDaysAgo": 142 },
+    { "SamAccountName": "user04", "Enabled": true, "PasswordNeverExpires": true, "PasswordLastSetDaysAgo": 900, "whenCreatedDaysAgo": 1000, "lastLogonTimestampDaysAgo": 8 },
+    { "SamAccountName": "user05", "Enabled": true, "DoesNotRequirePreAuth": true, "PasswordLastSetDaysAgo": 80, "whenCreatedDaysAgo": 600, "lastLogonTimestampDaysAgo": 2 },
+    { "SamAccountName": "user06", "Enabled": true, "PasswordNotRequired": true, "PasswordLastSetDaysAgo": 120, "whenCreatedDaysAgo": 500, "lastLogonTimestampDaysAgo": 5 },
+    { "SamAccountName": "user07", "Enabled": true, "PasswordLastSetDaysAgo": 210, "whenCreatedDaysAgo": 210, "lastLogonTimestampDaysAgo": null },
+    { "SamAccountName": "user08", "Enabled": true, "PasswordLastSetDaysAgo": 15, "whenCreatedDaysAgo": 15, "lastLogonTimestampDaysAgo": null },
+    { "SamAccountName": "user09", "Enabled": true, "PasswordLastSetDaysAgo": 150, "whenCreatedDaysAgo": 800, "lastLogonTimestampDaysAgo": 97 },
+    { "SamAccountName": "user10", "Enabled": true, "AdminCount": 1, "PasswordLastSetDaysAgo": 75, "whenCreatedDaysAgo": 1300, "lastLogonTimestampDaysAgo": 3 },
+    { "SamAccountName": "user11", "Enabled": false, "PasswordLastSetDaysAgo": 400, "whenCreatedDaysAgo": 1000, "lastLogonTimestampDaysAgo": 380 },
+    { "SamAccountName": "user12", "Enabled": true, "PasswordLastSetDaysAgo": 45, "whenCreatedDaysAgo": 365, "lastLogonTimestampDaysAgo": 1 }
+  ],
+  "ADComputers": [
+    { "Name": "DC01", "Enabled": true, "TrustedForDelegation": true, "PrimaryGroupID": 516, "OperatingSystem": "Windows Server 2022 Standard" },
+    { "Name": "DC02", "Enabled": true, "TrustedForDelegation": true, "PrimaryGroupID": 516, "OperatingSystem": "Windows Server 2022 Standard" },
+    { "Name": "SRV-APP01", "Enabled": true, "TrustedForDelegation": true, "PrimaryGroupID": 515, "OperatingSystem": "Windows Server 2016 Standard" },
+    { "Name": "SRV-PRINT01", "Enabled": true, "TrustedForDelegation": true, "PrimaryGroupID": 515, "OperatingSystem": "Windows Server 2012 R2 Standard" },
+    { "Name": "SRV-FILE01", "Enabled": true, "TrustedForDelegation": false, "PrimaryGroupID": 515, "OperatingSystem": "Windows Server 2019 Standard" },
+    { "Name": "SRV-SQL01", "Enabled": true, "TrustedForDelegation": false, "PrimaryGroupID": 515, "OperatingSystem": "Windows Server 2019 Standard" },
+    { "Name": "WKS-0001", "Enabled": true, "TrustedForDelegation": false, "PrimaryGroupID": 515, "OperatingSystem": "Windows 11 Entreprise" },
+    { "Name": "WKS-0002", "Enabled": true, "TrustedForDelegation": false, "PrimaryGroupID": 515, "OperatingSystem": "Windows 11 Entreprise" },
+    { "Name": "WKS-0003", "Enabled": true, "TrustedForDelegation": false, "PrimaryGroupID": 515, "OperatingSystem": "Windows 10 Entreprise" },
+    { "Name": "WKS-0004", "Enabled": false, "TrustedForDelegation": false, "PrimaryGroupID": 515, "OperatingSystem": "Windows 10 Entreprise" }
+  ],
+  "ADPrivilegedMembers": [
+    { "Group": "Domain Admins", "IsReported": true, "SamAccountName": "Administrator", "ObjectClass": "user" },
+    { "Group": "Domain Admins", "IsReported": true, "SamAccountName": "adm.user01", "ObjectClass": "user" },
+    { "Group": "Domain Admins", "IsReported": true, "SamAccountName": "adm.user02", "ObjectClass": "user" },
+    { "Group": "Domain Admins", "IsReported": true, "SamAccountName": "adm.user03", "ObjectClass": "user" },
+    { "Group": "Domain Admins", "IsReported": true, "SamAccountName": "svc_backup01", "ObjectClass": "user" },
+    { "Group": "Enterprise Admins", "IsReported": true, "SamAccountName": "Administrator", "ObjectClass": "user" },
+    { "Group": "Enterprise Admins", "IsReported": true, "SamAccountName": "adm.user01", "ObjectClass": "user" },
+    { "Group": "Schema Admins", "IsReported": true, "SamAccountName": "Administrator", "ObjectClass": "user" },
+    { "Group": "Administrators", "IsReported": true, "SamAccountName": "Administrator", "ObjectClass": "user" },
+    { "Group": "Administrators", "IsReported": true, "SamAccountName": "adm.user01", "ObjectClass": "user" },
+    { "Group": "Administrators", "IsReported": true, "SamAccountName": "adm.user04", "ObjectClass": "user" },
+    { "Group": "Administrators", "IsReported": true, "SamAccountName": "svc_monitor01", "ObjectClass": "user" },
+    { "Group": "Backup Operators", "IsReported": false, "SamAccountName": "adm.user04", "ObjectClass": "user" }
+  ],
+  "ADLapsSchema": [],
+  "EntraOrganization": [
+    { "DisplayName": "Contoso (démo)" }
+  ],
+  "EntraRegistration": [
+    { "UserPrincipalName": "admin01@contoso.example", "UserType": "member", "IsAdmin": true, "IsMfaRegistered": true },
+    { "UserPrincipalName": "admin02@contoso.example", "UserType": "member", "IsAdmin": true, "IsMfaRegistered": false },
+    { "UserPrincipalName": "breakglass01@contoso.example", "UserType": "member", "IsAdmin": true, "IsMfaRegistered": true },
+    { "UserPrincipalName": "breakglass02@contoso.example", "UserType": "member", "IsAdmin": true, "IsMfaRegistered": true },
+    { "UserPrincipalName": "user01@contoso.example", "UserType": "member", "IsAdmin": false, "IsMfaRegistered": true },
+    { "UserPrincipalName": "user02@contoso.example", "UserType": "member", "IsAdmin": false, "IsMfaRegistered": false },
+    { "UserPrincipalName": "user03@contoso.example", "UserType": "member", "IsAdmin": false, "IsMfaRegistered": true },
+    { "UserPrincipalName": "user04@contoso.example", "UserType": "member", "IsAdmin": false, "IsMfaRegistered": false },
+    { "UserPrincipalName": "user05@contoso.example", "UserType": "member", "IsAdmin": true, "IsMfaRegistered": true },
+    { "UserPrincipalName": "user06@contoso.example", "UserType": "member", "IsAdmin": false, "IsMfaRegistered": true },
+    { "UserPrincipalName": "partner01_fabrikam.example#EXT#@contoso.example", "UserType": "guest", "IsAdmin": false, "IsMfaRegistered": false }
+  ],
+  "EntraUsers": [
+    { "Id": "00000000-0000-4000-8000-000000000001", "UserPrincipalName": "admin01@contoso.example", "AccountEnabled": true, "UserType": "Member", "CreatedDateTimeDaysAgo": 900 },
+    { "Id": "00000000-0000-4000-8000-000000000002", "UserPrincipalName": "admin02@contoso.example", "AccountEnabled": true, "UserType": "Member", "CreatedDateTimeDaysAgo": 700 },
+    { "Id": "00000000-0000-4000-8000-000000000003", "UserPrincipalName": "breakglass01@contoso.example", "AccountEnabled": true, "UserType": "Member", "CreatedDateTimeDaysAgo": 1200 },
+    { "Id": "00000000-0000-4000-8000-000000000004", "UserPrincipalName": "breakglass02@contoso.example", "AccountEnabled": true, "UserType": "Member", "CreatedDateTimeDaysAgo": 1200 },
+    { "Id": "00000000-0000-4000-8000-000000000011", "UserPrincipalName": "user01@contoso.example", "AccountEnabled": true, "UserType": "Member", "CreatedDateTimeDaysAgo": 600 },
+    { "Id": "00000000-0000-4000-8000-000000000012", "UserPrincipalName": "user02@contoso.example", "AccountEnabled": true, "UserType": "Member", "CreatedDateTimeDaysAgo": 500 },
+    { "Id": "00000000-0000-4000-8000-000000000015", "UserPrincipalName": "user05@contoso.example", "AccountEnabled": true, "UserType": "Member", "CreatedDateTimeDaysAgo": 400 },
+    { "Id": "00000000-0000-4000-8000-000000000101", "UserPrincipalName": "partner01_fabrikam.example#EXT#@contoso.example", "AccountEnabled": true, "UserType": "Guest", "ExternalUserState": "PendingAcceptance", "CreatedDateTimeDaysAgo": 75 },
+    { "Id": "00000000-0000-4000-8000-000000000102", "UserPrincipalName": "partner02_fabrikam.example#EXT#@contoso.example", "AccountEnabled": true, "UserType": "Guest", "ExternalUserState": "Accepted", "CreatedDateTimeDaysAgo": 300 },
+    { "Id": "00000000-0000-4000-8000-000000000103", "UserPrincipalName": "consultant01_tailspin.example#EXT#@contoso.example", "AccountEnabled": true, "UserType": "Guest", "ExternalUserState": "PendingAcceptance", "CreatedDateTimeDaysAgo": 190 },
+    { "Id": "00000000-0000-4000-8000-000000000104", "UserPrincipalName": "consultant02_tailspin.example#EXT#@contoso.example", "AccountEnabled": true, "UserType": "Guest", "ExternalUserState": "PendingAcceptance", "CreatedDateTimeDaysAgo": 9 }
+  ],
+  "EntraUsersSignIn": {
+    "_simulatedError": "signInActivity indisponible (licence Entra ID P1 et permission AuditLog.Read.All requises) : [simulation démo] Neither tenant is B2C or tenant doesn't have premium license"
+  },
+  "EntraRoleAssignments": [
+    { "PrincipalId": "00000000-0000-4000-8000-000000000001", "RoleDefinitionId": "62e90394-69f5-4237-9190-012177145e10", "AssignmentType": "Assigned", "EndDateTime": null, "Source": "PIM" },
+    { "PrincipalId": "00000000-0000-4000-8000-000000000002", "RoleDefinitionId": "62e90394-69f5-4237-9190-012177145e10", "AssignmentType": "Assigned", "EndDateTime": null, "Source": "PIM" },
+    { "PrincipalId": "00000000-0000-4000-8000-000000000003", "RoleDefinitionId": "62e90394-69f5-4237-9190-012177145e10", "AssignmentType": "Assigned", "EndDateTime": null, "Source": "PIM" },
+    { "PrincipalId": "00000000-0000-4000-8000-000000000004", "RoleDefinitionId": "62e90394-69f5-4237-9190-012177145e10", "AssignmentType": "Assigned", "EndDateTime": null, "Source": "PIM" },
+    { "PrincipalId": "00000000-0000-4000-8000-000000000015", "RoleDefinitionId": "62e90394-69f5-4237-9190-012177145e10", "AssignmentType": "Assigned", "EndDateTime": null, "Source": "PIM" },
+    { "PrincipalId": "00000000-0000-4000-8000-000000000011", "RoleDefinitionId": "194ae4cb-b126-40b2-bd5b-6091b380977d", "AssignmentType": "Assigned", "EndDateTime": null, "Source": "PIM" },
+    { "PrincipalId": "00000000-0000-4000-8000-000000000012", "RoleDefinitionId": "29232cdf-9323-42fd-ade2-1d097af3e4de", "AssignmentType": "Activated", "EndDateTimeDaysAgo": -0.2, "Source": "PIM" },
+    { "PrincipalId": "00000000-0000-4000-8000-000000000012", "RoleDefinitionId": "88d8e3e3-8f55-4a1e-953a-9b9898b8876b", "AssignmentType": "Assigned", "EndDateTime": null, "Source": "PIM" }
+  ],
+  "EntraSecurityDefaults": {
+    "IsEnabled": false
+  },
+  "EntraCAPolicies": [
+    { "DisplayName": "CA001 - MFA pour les administrateurs", "State": "enabled" },
+    { "DisplayName": "CA002 - Bloquer l'authentification héritée", "State": "enabledForReportingButNotEnforced" },
+    { "DisplayName": "CA003 - MFA pour tous les utilisateurs", "State": "disabled" }
+  ],
+  "EntraApplications": [
+    { "DisplayName": "App-Paie-Demo", "PasswordCredentials": [ { "DisplayName": "secret-2025", "EndDateTimeDaysAgo": 12 } ], "KeyCredentials": [] },
+    { "DisplayName": "App-CRM-Demo", "PasswordCredentials": [], "KeyCredentials": [ { "DisplayName": "CN=crm-demo", "EndDateTimeDaysAgo": -18 } ] },
+    { "DisplayName": "App-Intranet-Demo", "PasswordCredentials": [ { "DisplayName": "secret-main", "EndDateTimeDaysAgo": -240 } ], "KeyCredentials": [] },
+    { "DisplayName": "App-Reporting-Demo", "PasswordCredentials": [ { "DisplayName": "secret-old", "EndDateTimeDaysAgo": 400 }, { "DisplayName": "secret-new", "EndDateTimeDaysAgo": -25 } ], "KeyCredentials": [] }
+  ]
+}
