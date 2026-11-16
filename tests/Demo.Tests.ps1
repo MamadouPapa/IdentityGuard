@@ -39,7 +39,7 @@ Describe 'Invoke-IdentityGuard -DemoMode' {
         $byId['ENT-002'].Count | Should -Be 6
         $byId['ENT-003'].Count | Should -Be 2
         $byId['ENT-004'].Status | Should -Be 'Conforme'
-        $byId['ENT-005'].Count | Should -Be 3
+        $byId['ENT-005'].Count | Should -Be 4
     }
 
     It 'returns a score between 0 and 100 with a grade' {
